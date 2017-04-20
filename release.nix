@@ -9,9 +9,7 @@ let
 
   systems = [ "x86_64-linux" "i686-linux" "x86_64-darwin" /* "x86_64-freebsd" "i686-freebsd" */ ];
 
-
   jobs = rec {
-
 
     tarball =
       with pkgs;
